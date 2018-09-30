@@ -1,0 +1,37 @@
+<div>
+    <div class="cover uk-padding-large uk-section-primary uk-background-cover uk-position-relative uk-flex uk-flex-center uk-flex-middle"
+        id="m">
+        <div class="uk-container uk-container uk-grid uk-text-center uk-text-left@s uk-child-width-1-2@s uk-grid-match uk-flex uk-flex-middle uk-margin-small-left">
+            <div class="uk-padding-remove">
+                <div class="uk-padding-remove" uk-scrollspy="cls: uk-animation-fade; target: img; delay: 250; repeat: false">
+                    <img data-src="../img/webinar.png" width="" height="" alt="" uk-img>
+                </div>
+            </div>
+
+            <div class="uk-padding">
+                <h1 class="uk-margin-remove-top">«Заголовок»</h1>
+
+                <div class="uk-text">
+                    <h4 class="uk-margin-small-bottom">Подзаголовок</h4>
+                </div>
+
+                <p>Описание
+                </p>
+
+                <div>
+                    <a class="uk-button uk-button-primary uk-margin-small-top" href="#p" uk-scroll="duration: 300; offset: 60">Программа</a>
+                    <a class="uk-button uk-button-primary uk-margin-small-top" href="#r" uk-scroll="duration: 1500; offset: 60">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-position-top">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark uk-navbar-default; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+
+            {{> header title=htmlWebpackPlugin.options.title}}
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,20 @@
+<footer class="uk-section uk-section-primary uk-section-small">
+    <div class="uk-container uk-container-expand">
+        <p class="uk-text-center">
+            <a href="{{htmlWebpackPlugin.options.vk}}" class="uk-text-primary uk-icon-button uk-margin-small-right uk-text-primary" uk-icon="vk"></a>
+            <a href="{{htmlWebpackPlugin.options.facebook}}" class="uk-text-primary uk-icon-button uk-margin-small-right uk-text-primary" uk-icon="facebook"></a>
+            <a href="{{htmlWebpackPlugin.options.instagram}}" class="uk-text-primary uk-icon-button uk-text-primary" uk-icon="instagram"></a>
+        </p>
+        <p class="uk-text-small uk-text-center">
+            {{htmlWebpackPlugin.options.title}} &copy;
+            <script language="JavaScript" type="text/javascript">
+                now = new Date
+                theYear = now.getYear()
+                if (theYear < 1900)
+                    theYear = theYear + 1900
+                document.write(theYear)
+            </script>
+            <a href="mailto:{{htmlWebpackPlugin.options.email}}">{{htmlWebpackPlugin.options.email}}</a>
+        </p>
+    </div>
+</footer>
